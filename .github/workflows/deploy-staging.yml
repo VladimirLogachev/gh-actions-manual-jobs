@@ -1,4 +1,4 @@
-name: Deploy to Production
+name: Deploy to Staging
 on: workflow_dispatch
 
 jobs:
@@ -6,6 +6,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "======= MANUAL ========"
-      - run: echo "Deproying to production"
+      - run: echo "Deproying to staging"
       - run: echo "DEPLOYED!"
-
