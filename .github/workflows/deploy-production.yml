@@ -7,5 +7,6 @@ jobs:
     steps:
       - run: echo "======= MANUAL ========"
       - run: echo "Deproying to production"
+      - run: echo "${{ github.event.inputs.tag }}"
       - run: echo "DEPLOYED!"
 
