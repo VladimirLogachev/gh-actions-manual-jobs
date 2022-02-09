@@ -1,4 +1,4 @@
-name: Print Summary On Push
+name: Print Summary
 on: [push]
 
 jobs:
